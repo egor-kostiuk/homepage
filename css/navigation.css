@@ -1,0 +1,40 @@
+.nav {
+    background-color: #171718;
+    color: #FFFFFF;
+    padding: 20px 0;
+    border-bottom: 1px solid #26292D;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav__title {
+    font-size: 24px;
+}
+
+.nav__title strong {
+    font-weight: 700;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav__list-item {
+
+}
+
+.nav__list-link {
+
+}
