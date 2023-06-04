@@ -31,10 +31,19 @@
     font-weight: 500;
 }
 
-.nav__list-item {
-
+.nav__list-link--active {
+    position: relative;
 }
 
-.nav__list-link {
+.nav__list-link--active::before {
+    content: '';
 
+    position: absolute;
+    left: 0;
+    top: 100%;
+    
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #5C62EC;
 }
