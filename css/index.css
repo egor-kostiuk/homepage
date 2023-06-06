@@ -4,3 +4,14 @@
 
 /* Nav */
     @import 'navigation.css';
+
+/* Header */
+    @import 'header.css';
+
+/* Projects */
+    @import 'projects.css';
+        /* Projects details */
+        @import 'project-details.css';
+
+/* Footer */
+    @import 'footer.css';
