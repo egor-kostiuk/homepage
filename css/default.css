@@ -92,3 +92,10 @@ fieldset {
     text-align: center;
     color: var(--accent);
 }
+
+.title-2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
