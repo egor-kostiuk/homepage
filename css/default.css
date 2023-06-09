@@ -19,6 +19,9 @@ body {
     position: relative;
     overflow-x: hidden;
     letter-spacing: -0.5px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 img, svg {
@@ -81,7 +84,6 @@ fieldset {
 
 .section {
     padding: 70px 0;
-
 }
 
 .title-1 {
@@ -98,4 +100,24 @@ fieldset {
     font-size: 40px;
     line-height: 1.3;
     margin-bottom: 20px;
+}
+
+.contacts {
+    color: var(--accent);
+}
+
+@media (max-width: 620px) {
+    .section {
+        padding: 40px 0;
+    }
+
+    .title-1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .title-2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 }

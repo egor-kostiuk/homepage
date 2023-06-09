@@ -1,6 +1,7 @@
 .project__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
 }
@@ -28,7 +29,6 @@
 }
 
 .project__image {
-    max-width: 330px;
     max-height: 240px;
     border-radius: 5px;
 }
