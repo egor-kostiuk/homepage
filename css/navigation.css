@@ -9,7 +9,7 @@
 
 .nav__row {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     column-gap: 30px;
     row-gap: 20px;
@@ -17,6 +17,7 @@
 }
 
 .nav__title {
+    margin-right: auto;
     font-size: 24px;
 }
 
@@ -55,4 +56,10 @@
     height: 2px;
     width: 100%;
     background-color: var(--accent);
+}
+
+@media (max-width: 620px) {
+    .nav__row {
+        justify-content: space-between;
+    }
 }
