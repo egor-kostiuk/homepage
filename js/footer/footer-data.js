@@ -5,3 +5,11 @@ export const social = {
     github: 'https://github.com/EgorKostiuk',
     linkedin: 'https://www.linkedin.com/in/egor-kostiuk-02912127a/'
 }
+
+export const icons = { // optimize
+    telegram: '../img/icons/telegram.svg',
+    instagram: '../img/icons/instagram.svg',
+    twitter: '../img/icons/twitter.svg',
+    github: '../img/icons/github.svg',
+    linkedin: '../img/icons/linkedin.svg'
+};
