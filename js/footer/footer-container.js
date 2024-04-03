@@ -1,12 +1,9 @@
 export const container = document.createElement('div');
 
-
 container.classList.add('container');
 container.innerHTML =
     `
         <div class="footer__wrapper">
-            <ul class="footer__social">
-            </ul>
             <div class="footer__development">
                 <p>© Portfolio, 2023</p>    
                 <p>Developer:
