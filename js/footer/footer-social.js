@@ -15,16 +15,16 @@ export function createSocialItem(data) {
                 socialIcon.src = '/img/icons/telegram.svg';
                 break;
             case 'instagram':
-                socialIcon.src = '../.././img/icons/instagram.svg';
+                socialIcon.src = '/img/icons/instagram.svg';
                 break;
             case 'twitter':
-                socialIcon.src = '../.././img/icons/twitter.svg';
+                socialIcon.src = '/img/icons/twitter.svg';
                 break;
             case 'github':
-                socialIcon.src = '../.././img/icons/github.svg';
+                socialIcon.src = '/img/icons/github.svg';
                 break;
             case 'linkedin':
-                socialIcon.src = '../.././img/icons/linkedin.svg';
+                socialIcon.src = '/img/icons/linkedin.svg';
                 break;
             default:
                 socialIcon.src = '../.././img/icons';
