@@ -12,7 +12,7 @@ export function createSocialItem(data) {
 
         switch (key) {
             case 'telegram':
-                socialIcon.src = '../.././img/icons/telegram.svg';
+                socialIcon.src = '/img/icons/telegram.svg';
                 break;
             case 'instagram':
                 socialIcon.src = '../.././img/icons/instagram.svg';
