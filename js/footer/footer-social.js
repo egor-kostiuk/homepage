@@ -6,10 +6,7 @@ export function createSocialItem(data) {
         const socialItem = document.createElement('li');
         const socialLink = document.createElement('a');
 
-        socialLink.href = `
-            ${data[key]}
-        `
-
+        socialLink.href = data[key];
         socialItem.classList.add('footer__social-item');
 
         socialItem.appendChild(socialLink);
