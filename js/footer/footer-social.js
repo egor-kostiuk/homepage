@@ -15,7 +15,7 @@ export function createSocialItem(social, icons) {
         socialIcon.src = icons[key] || '';
 
         if (check === null) {
-            socialIcon.src = socialIcon.src.replace('../', '');
+            socialIcon.scr = icons[key].replace('../', '');
         }
 
         socialLink.appendChild(socialIcon);
