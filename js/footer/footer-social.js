@@ -9,15 +9,18 @@ export function createSocialItem(social, icons) {
         const socialLink = document.createElement('a');
         const socialIcon = document.createElement('img');
 
+        // add social links to (li) elements
         socialLink.href = social[key];
         socialItem.classList.add('footer__social-item');
 
-        socialIcon.src = icons[key] || '';
+        // add icons to (li) elements
+        socialIcon.src = icons[key];
 
         if (check === null) {
             socialIcon.src = icons[key].replace('../', '');
         }
 
+        // collect all list elements
         socialLink.appendChild(socialIcon);
         socialItem.appendChild(socialLink);
         socialList.appendChild(socialItem);

@@ -6,7 +6,7 @@ export const social = {
     linkedin: 'https://www.linkedin.com/in/egor-kostiuk-02912127a/'
 }
 
-export const icons = { // optimize
+export const icons = {
     telegram: '../img/icons/telegram.svg',
     instagram: '../img/icons/instagram.svg',
     twitter: '../img/icons/twitter.svg',
