@@ -3,7 +3,5 @@
 @import 'dark-theme.css';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
 
-/* Projects */
-    @import 'projects.css';
-        /* Projects details */
-        @import 'project-details.css';
+/* Projects details */
+@import 'project-details.css';
