@@ -12,12 +12,11 @@ export const Footer = () => {
       <div className="container">
         <div className="footer__wrapper">
           <ul className="footer__social">
-            <li className="footer__social-item"><a href="#!"><img src={telegram} alt="Link"/></a></li>
-            {/*{TODO: link social}*/}
-            <li className="footer__social-item"><a href="#!"><img src={instagram} alt="Link"/></a></li>
-            <li className="footer__social-item"><a href="#!"><img src={twitter} alt="Link"/></a></li>
-            <li className="footer__social-item"><a href="#!"><img src={github} alt="Link"/></a></li>
-            <li className="footer__social-item"><a href="#!"><img src={linkedin} alt="Link"/></a></li>
+            <li className="footer__social-item"><a href="https://t.me/egor_kostiuk"><img src={telegram} alt="Link"/></a></li>
+            <li className="footer__social-item"><a href="https://www.instagram.com/_ve1ry/"><img src={instagram} alt="Link"/></a></li>
+            <li className="footer__social-item"><a href="https://x.com/ve1ry_"><img src={twitter} alt="Link"/></a></li>
+            <li className="footer__social-item"><a href="https://github.com/egor-kostiuk"><img src={github} alt="Link"/></a></li>
+            <li className="footer__social-item"><a href="https://www.linkedin.com/in/egor-kostiuk-02912127a/"><img src={linkedin} alt="Link"/></a></li>
           </ul>
           <div className="footer__development">
             <p>© Portfolio, 2023</p>
