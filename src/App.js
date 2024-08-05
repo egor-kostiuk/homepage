@@ -1,13 +1,12 @@
 import './styles/index.css';
+import {Nav} from "./components/Nav/Nav";
+import {Header} from "./components/Header/Header";
+
 import {Link} from "react-router-dom";
-
-import sun from './img/icons/sun.svg';
-import moon from './img/icons/moon.svg';
-
 import project1 from './img/projects/project_1.png';
 import project2 from './img/projects/project_2.png';
-import project3 from './img/projects/project_3.png';
 
+import project3 from './img/projects/project_3.png';
 import telegram from './img/icons/telegram.svg';
 import instagram from './img/icons/instagram.svg';
 import twitter from './img/icons/twitter.svg';
@@ -18,54 +17,10 @@ function App() {
   return (
     <div className={'App'}>
       {/*{Nav}*/}
-      <nav className="nav">
-        <div className="container">
-          <div className="nav__row">
-            <a href="./index.html" className="nav__title">
-              <strong>Developer</strong>
-              <span>portfolio</span>
-            </a>
-
-            <button className="dark-mode-btn">
-              <img src={sun} alt="light mode" className="dark-mode-btn__icon"/>
-                <img src={moon} alt="dark mode" className="dark-mode-btn__icon"/>
-            </button>
-
-            <ul className="nav__list">
-              <li className="nav___list-item">
-                <a href="./index.html" className="nav__list-link nav__list-link--active">Projects</a>
-              </li>
-              <li className="nav___list-item">
-                <a href="./skills.html" className="nav__list-link">Skills</a>
-              </li>
-              <li className="nav___list-item">
-                <a href="./contacts.html" className="nav__list-link">Contacts</a>
-              </li>
-              <li className="nav___list-item">
-                <a href="./biography.html" className="nav__list-link">Biography</a>
-              </li>
-            </ul>
-
-          </div>
-        </div>
-      </nav>
+      <Nav/>
 
       {/*{Header}*/}
-      <header className="header">
-        <div className="header__wrapper">
-          <h1 className="header__title">
-            <strong>Hi, my name is <em>Egor</em></strong><br/>
-            <span>a full stack developer</span>
-          </h1>
-
-          <div className="header__text">
-            <p>with passion for learning and creating.</p>
-          </div>
-
-          <a href="https://github.com/EgorKostiuk" className="btn">View GitHub</a>
-
-        </div>
-      </header>
+      <Header/>
 
       {/*{Projects}*/}
       <main className="section">
