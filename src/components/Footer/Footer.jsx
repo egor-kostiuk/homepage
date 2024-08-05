@@ -21,7 +21,7 @@ export const Footer = () => {
           <div className="footer__development">
             <p>© Portfolio, 2023</p>
             <p>Developer:
-              <a href="https://t.me/retrosy" className="footer__development-link"> Egor Kostiuk</a>
+              <a href="https://t.me/egor_kostiuk" className="footer__development-link"> Egor Kostiuk</a>
             </p>
           </div>
         </div>
