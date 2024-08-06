@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="header__text">
           <p>with passion for learning and creating.</p>
         </div>
-        <a href="https://github.com/egor-kostiuk" className="btn">View GitHub</a>
+        <a href="https://github.com/egor-kostiuk" className="btn" target={"_blank"}>View GitHub</a>
       </div>
     </header>
   )
