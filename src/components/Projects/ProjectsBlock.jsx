@@ -16,6 +16,7 @@ export const ProjectsBlock = () => {
                 title={project.title}
                 img={project.img}
                 className={`project__image-container project__image-container${index + 1}`}
+                index={index}
               />
             )
           })}
