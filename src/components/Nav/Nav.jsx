@@ -6,6 +6,9 @@ import sun from "../../img/icons/sun.svg";
 import moon from "../../img/icons/moon.svg";
 
 export const Nav = () => {
+  const activeLink = 'nav__list-link nav__list-link--active'
+  const normalLink = 'nav__list-link'
+
   return (
     <nav className="nav">
       <div className="container">
@@ -20,22 +23,22 @@ export const Nav = () => {
           </button>
           <ul className="nav__list">
             <li className="nav___list-item">
-              <NavLink to={'/'} className={'nav__list-link'}>
+              <NavLink to={'/'} className={({isActive}) => isActive ? activeLink : normalLink}>
                 Projects
               </NavLink>
             </li>
             <li className="nav___list-item">
-              <NavLink to={'/skills'} className="nav__list-link">
+              <NavLink to={'/skills'} className={({isActive}) => isActive ? activeLink : normalLink}>
                 Skills
               </NavLink>
             </li>
             <li className="nav___list-item">
-              <NavLink to={'/contacts'} className="nav__list-link">
+              <NavLink to={'/contacts'} className={({isActive}) => isActive ? activeLink : normalLink}>
                 Contacts
               </NavLink>
             </li>
             <li className="nav___list-item">
-              <NavLink to={'/biography'} className="nav__list-link">
+              <NavLink to={'/biography'} className={({isActive}) => isActive ? activeLink : normalLink}>
                 Biography
               </NavLink>
             </li>
