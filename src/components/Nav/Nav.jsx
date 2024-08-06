@@ -14,7 +14,7 @@ export const Nav = () => {
       <div className="container">
         <div className="nav__row">
           <NavLink to={'/'} className={'nav__title'}>
-            <strong>Developer</strong>
+            <strong>Developer </strong>
             <span>portfolio</span>
           </NavLink>
           <button className="dark-mode-btn">
