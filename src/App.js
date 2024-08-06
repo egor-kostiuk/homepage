@@ -8,7 +8,7 @@ import {HomePage} from "./pages/HomePage";
 import {SkillsPage} from "./pages/SkillsPage";
 import {ContactsPage} from "./pages/ContactsPage";
 import {BiographyPage} from "./pages/BiographyPage";
-import {Footer} from "./components/Footer/Footer.tsx";
+import {Footer} from "./components/Footer/Footer";
 
 import {ProjectPage} from "./pages/ProjectPage";
 

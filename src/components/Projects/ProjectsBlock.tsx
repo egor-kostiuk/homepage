@@ -1,9 +1,10 @@
+import React from 'react';
 import {ProjectItem} from "./ProjectItem";
-import {projects} from "../../helpers/projectsList";
+import {projects} from '../../helpers/projectsList';
 
 import './Projects.css';
 
-export const ProjectsBlock = () => {
+export const ProjectsBlock: React.FC = () => {
   return (
     <main className="section">
       <div className="container">

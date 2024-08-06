@@ -2,7 +2,16 @@ import project1 from './../img/projects/project_1.png';
 import project2 from './../img/projects/project_2.png';
 import project3 from './../img/projects/project_3.png';
 
-export const projects = [
+export interface ProjectType {
+  title: string;
+  skills: string;
+  img: string;
+  gitHubLink?: string;
+  demoLink?: string;
+  className: string;
+}
+
+export const projects: ProjectType[] = [
   {
     title: 'Travel Service',
     skills: 'HTML, CSS, JavaScript',
@@ -24,6 +33,6 @@ export const projects = [
     skills: 'HTML, CSS, JavaScript',
     img: project3,
     gitHubLink: 'https://github.com/EgorKostiuk/YourMeal',
-    className: 'project__img-container project__img-container3'
+    className: 'project__img-container project__img-container3',
   },
-]
+];
