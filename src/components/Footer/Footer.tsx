@@ -1,3 +1,4 @@
+import React from 'react';
 import './Footer.css';
 
 import telegram from "../../img/icons/telegram.svg";
@@ -6,7 +7,7 @@ import twitter from "../../img/icons/twitter.svg";
 import github from "../../img/icons/github.svg";
 import linkedin from "../../img/icons/linkedin.svg";
 
-export const Footer = () => {
+export const Footer: React.FC  = () => {
   return (
     <footer className="footer">
       <div className="container">
