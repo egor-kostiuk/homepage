@@ -1,9 +1,8 @@
 import './Nav.css';
 
 import {NavLink} from "react-router-dom";
+import {DarkModeButton} from "../Buttons/DarkModeButton";
 
-import sun from "../../img/icons/sun.svg";
-import moon from "../../img/icons/moon.svg";
 
 export const Nav = () => {
   const activeLink = 'nav__list-link nav__list-link--active'
@@ -17,10 +16,7 @@ export const Nav = () => {
             <strong>Developer </strong>
             <span>portfolio</span>
           </NavLink>
-          <button className="dark-mode-btn">
-            <img src={sun} alt="light mode" className="dark-mode-btn__icon"/>
-            <img src={moon} alt="dark mode" className="dark-mode-btn__icon"/>
-          </button>
+          <DarkModeButton/>
           <ul className="nav__list">
             <li className="nav___list-item">
               <NavLink to={'/'} className={({isActive}) => isActive ? activeLink : normalLink}>
