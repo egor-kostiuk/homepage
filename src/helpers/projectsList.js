@@ -9,6 +9,7 @@ export const projects = [
     img: project1,
     gitHubLink: 'https://github.com/EgorKostiuk/travel-project',
     demoLink: 'https://travel-project-japan.netlify.app',
+    className: 'project__img-container',
   },
   {
     title: 'Registration',
@@ -16,12 +17,13 @@ export const projects = [
     img: project2,
     gitHubLink: 'https://github.com/EgorKostiuk/loginform',
     demoLink: 'https://egorkostiuk.github.io/loginform/',
+    className: 'project__img-container project__img-container2',
   },
   {
     title: 'YourMeal',
     skills: 'HTML, CSS, JavaScript',
     img: project3,
     gitHubLink: 'https://github.com/EgorKostiuk/YourMeal',
-    demoLink: '#!',
+    className: 'project__img-container project__img-container3'
   },
 ]
