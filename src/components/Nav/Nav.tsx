@@ -1,10 +1,12 @@
+import React from "react";
+
 import './Nav.css';
 
 import {NavLink} from "react-router-dom";
-import {DarkModeButton} from "../Buttons/DarkModeButton.tsx";
+import {DarkModeButton} from "../Buttons/DarkModeButton";
 
 
-export const Nav = () => {
+export const Nav: React.FC = () => {
   const activeLink = 'nav__list-link nav__list-link--active'
   const normalLink = 'nav__list-link'
 
