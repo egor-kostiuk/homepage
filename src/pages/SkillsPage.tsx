@@ -1,6 +1,11 @@
 import React from "react";
+import {useFavicon} from "../hooks/changeFavicon";
+
+import skillIcon from '../img/icons/skills-page-icon.png';
 
 export const SkillsPage: React.FC = () => {
+  useFavicon(skillIcon);
+
   return (
     <main className="section">
       <div className="container">

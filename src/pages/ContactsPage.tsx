@@ -1,6 +1,11 @@
 import React from "react";
+import {useFavicon} from "../hooks/changeFavicon";
+
+import contactIcon from '../img/icons/contacts-page-icon.png';
 
 export const ContactsPage: React.FC = () => {
+  useFavicon(contactIcon);
+
   return (
     <main className="section">
       <div className="container">

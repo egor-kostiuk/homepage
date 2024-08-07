@@ -1,9 +1,13 @@
 import React from "react";
+import {useFavicon} from '../hooks/changeFavicon'
 
+import biographyIcon from '../img/icons/biography-page-icon.png';
 import img1 from '../img/biography.JPG';
 import img2 from '../img/biography2.JPG';
 
 export const BiographyPage: React.FC = () => {
+  useFavicon(biographyIcon);
+
   return (
     <main className="section">
       <div className="container">
