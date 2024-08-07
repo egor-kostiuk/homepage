@@ -1,3 +1,4 @@
+import React from "react";
 import {useEffect, useRef} from "react";
 import {useLocalStorage} from "../../utils/useLocalStorage";
 
@@ -6,17 +7,21 @@ import './DarkMode.css';
 import sun from "../../img/icons/sun.svg";
 import moon from "../../img/icons/moon.svg";
 
-export const DarkModeButton = () => {
-  const [darkMode, setDarkMode] = useLocalStorage('darkMode', 'light');
-  const btnRef = useRef(null);
+export const DarkModeButton: React.FC = () => {
+  const [darkMode, setDarkMode] = useLocalStorage<string>('darkMode', 'light');
+  const btnRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     if (darkMode === 'dark') {
       document.body.classList.add('dark');
-      btnRef.current.classList.add('dark-mode-btn--active');
+      if (btnRef.current) {
+        btnRef.current.classList.add('dark-mode-btn--active');
+      }
     } else {
       document.body.classList.remove('dark');
-      btnRef.current.classList.remove('dark-mode-btn--active');
+      if (btnRef.current) {
+        btnRef.current.classList.remove('dark-mode-btn--active');
+      }
     }
   }, [darkMode]);
 

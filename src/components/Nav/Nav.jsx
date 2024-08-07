@@ -1,7 +1,7 @@
 import './Nav.css';
 
 import {NavLink} from "react-router-dom";
-import {DarkModeButton} from "../Buttons/DarkModeButton";
+import {DarkModeButton} from "../Buttons/DarkModeButton.tsx";
 
 
 export const Nav = () => {
