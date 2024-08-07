@@ -1,4 +1,6 @@
-export const ContactsPage = () => {
+import React from "react";
+
+export const ContactsPage: React.FC = () => {
   return (
     <main className="section">
       <div className="container">

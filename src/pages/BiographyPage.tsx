@@ -1,7 +1,9 @@
+import React from "react";
+
 import img1 from '../img/biography.JPG';
 import img2 from '../img/biography2.JPG';
 
-export const BiographyPage = () => {
+export const BiographyPage: React.FC = () => {
   return (
     <main className="section">
       <div className="container">

@@ -1,7 +1,6 @@
 import {useParams} from 'react-router-dom';
 import {projects} from "../helpers/projectsList";
 
-import img from '../img/projects/project_1.png';
 import gitHubIcon from '../img/icons/github_mini.svg';
 import netlifyIcon from '../img/icons/netlify.svg';
 

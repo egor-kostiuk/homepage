@@ -1,4 +1,6 @@
-export const SkillsPage = () => {
+import React from "react";
+
+export const SkillsPage: React.FC = () => {
   return (
     <main className="section">
       <div className="container">
@@ -6,7 +8,7 @@ export const SkillsPage = () => {
         <ul className="content__list">
           <li className="content__list-item">
             <h2 className="title-2">Tech Stack</h2>
-            <p>JavaScript, HTML5, CSS3, ReactJS, Webpack, Vite, Git (GitHub), MySQL</p>
+            <p>JavaScript, TypeScript, HTML5, CSS3, ReactJS, Webpack, Vite, Git (GitHub), MySQL</p>
           </li>
           <li className="content__list-item">
             <h2 className="title-2">Soft Skills</h2>
