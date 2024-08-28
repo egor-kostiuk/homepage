@@ -13,7 +13,7 @@ export const ContactsPage: React.FC = () => {
         <ul className="content__list">
           <li className="content__list-item">
             <h2 className="title-2">Location</h2>
-            <p>Ukraine, Poltava</p>
+            <p>Ukraine, Kyiv</p>
           </li>
           <li className="content__list-item">
             <h2 className="title-2">Phone / Telegram</h2>
