@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {useFavicon} from '../hooks/changeFavicon'
 
 import biographyIcon from '../img/icons/biography-page-icon.png';

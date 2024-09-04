@@ -1,9 +1,9 @@
-import {useParams} from 'react-router-dom';
-import {projects} from "../helpers/projectsList";
+import { useParams } from 'react-router-dom';
+import { useFavicon } from '../hooks/changeFavicon';
 
+import { projects } from '../helpers/projectsList';
 import gitHubIcon from '../img/icons/github_mini.svg';
 import netlifyIcon from '../img/icons/netlify.svg';
-import {useFavicon} from "../hooks/changeFavicon";
 
 export const ProjectPage = () => {
   const {id} = useParams();

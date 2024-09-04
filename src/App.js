@@ -1,16 +1,16 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ScrollToTop } from './utils/scrollToTop';
+
+import { Nav } from './components/Nav/Nav';
+import { HomePage } from './pages/HomePage';
+import { SkillsPage } from './pages/SkillsPage';
+import { ContactsPage } from './pages/ContactsPage';
+import { BiographyPage } from './pages/BiographyPage';
+import { Footer } from './components/Footer/Footer';
+
+import { ProjectPage } from './pages/ProjectPage';
+
 import './styles/index.css';
-
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import {ScrollToTop} from "./utils/scrollToTop";
-
-import {Nav} from "./components/Nav/Nav";
-import {HomePage} from "./pages/HomePage";
-import {SkillsPage} from "./pages/SkillsPage";
-import {ContactsPage} from "./pages/ContactsPage";
-import {BiographyPage} from "./pages/BiographyPage";
-import {Footer} from "./components/Footer/Footer";
-
-import {ProjectPage} from "./pages/ProjectPage";
 
 function App() {
   return (

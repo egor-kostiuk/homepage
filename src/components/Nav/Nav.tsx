@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react'
+import { NavLink } from 'react-router-dom';
+
+import { DarkModeButton } from '../Buttons/DarkModeButton';
 
 import './Nav.css';
-
-import {NavLink} from "react-router-dom";
-import {DarkModeButton} from "../Buttons/DarkModeButton";
 
 
 export const Nav: React.FC = () => {

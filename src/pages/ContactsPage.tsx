@@ -1,5 +1,5 @@
-import React from "react";
-import {useFavicon} from "../hooks/changeFavicon";
+import React from 'react';
+import { useFavicon } from '../hooks/changeFavicon';
 
 import contactIcon from '../img/icons/contacts-page-icon.png';
 

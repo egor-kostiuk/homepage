@@ -1,5 +1,5 @@
 import React from "react";
-import {useFavicon} from "../hooks/changeFavicon";
+import { useFavicon } from "../hooks/changeFavicon";
 
 import skillIcon from '../img/icons/skills-page-icon.png';
 
