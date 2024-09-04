@@ -11,6 +11,7 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center center;
+    cursor: default;
 }
 
 .header__wrapper {
@@ -48,7 +49,7 @@
 .btn {
     display: inline-block;
     height: 48px;
-    padding: 12px 28px;
+    padding: 14px 28px;
     border-radius: 5px;
     background-color: var(--accent);
     letter-spacing: 0.15px;
