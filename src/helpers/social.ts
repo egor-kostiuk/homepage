@@ -1,4 +1,9 @@
 import telegram from '/src/assets/icons/social/telegram.svg'
+import instagram from '/src/assets/icons/social/instagram.svg'
+import twitter from '/src/assets/icons/social/twitter.svg'
+import gitHub from '/src/assets/icons/social/github.svg'
+import linkedIn from '/src/assets/icons/social/linkedin.svg'
+
 
 export const social = [
   {
@@ -9,21 +14,21 @@ export const social = [
   {
     name: 'instagram',
     link: 'https://www.instagram.com/_ve1ry/',
-    img: '/src/assets/icons/social/instagram.svg'
+    img: instagram
   },
   {
     name: 'twitter',
     link: 'https://x.com/ve1ry_',
-    img: '/src/assets/icons/social/twitter.svg'
+    img: twitter
   },
   {
     name: 'gitHub',
     link: 'https://github.com/egor-kostiuk',
-    img: '/src/assets/icons/social/github.svg'
+    img: gitHub
   },
   {
     name: 'linkedIn',
     link: 'https://www.linkedin.com/in/egor-kostiuk-02912127a/',
-    img: '/src/assets/icons/social/linkedin.svg'
+    img: linkedIn
   }
 ]
