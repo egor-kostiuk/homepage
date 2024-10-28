@@ -10,7 +10,7 @@ export const Footer: FC = () => {
 				<div className="footer__wrapper">
 					<ul className="footer__social">
 						{social.map(el => (
-							<li className="footer__social-item">
+							<li className="footer__social-item" key={el.name}>
 								<a href={el.link} target={'_blank'}>
 									<img src={el.img} alt={el.img} />
 								</a>
