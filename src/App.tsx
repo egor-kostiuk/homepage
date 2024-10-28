@@ -5,6 +5,8 @@ import './App.css'
 
 export const App = () => {
 	return (
-		<RouterProvider router={router}/>
+		<div className="App">
+			<RouterProvider router={router} />
+		</div>
 	)
 }
