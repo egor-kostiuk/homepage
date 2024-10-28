@@ -1,8 +1,10 @@
+import telegram from '/src/assets/icons/social/telegram.svg'
+
 export const social = [
   {
     name: 'telegram',
     link: 'https://t.me/egor_kostiuk',
-    img: '/src/assets/icons/social/telegram.svg'
+    img: telegram
   },
   {
     name: 'instagram',
