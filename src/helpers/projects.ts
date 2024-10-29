@@ -4,6 +4,7 @@ import project3 from '/src/assets/img/projects/project_3.png'
 
 export const projects = [
   {
+    id: 0,
     title: 'Travel Service',
     skills: 'HTML, CSS, JavaScript',
     img: project1,
@@ -11,15 +12,17 @@ export const projects = [
     demoLink: 'https://travel-project-japan.netlify.app',
   },
   {
-    title: 'Registration',
-    skills: 'HTML, CSS, JavaScript',
+    id: 1,
+    title: 'BankDash',
+    skills: 'React, JavaScript, CSS',
     img: project2,
-    gitHubLink: 'https://github.com/EgorKostiuk/loginform',
-    demoLink: 'https://egorkostiuk.github.io/loginform/',
+    gitHubLink: 'https://github.com/egor-kostiuk/BankDash',
+    demoLink: 'https://bank-dash.vercel.app',
   },
   {
+    id: 2,
     title: 'YourMeal',
-    skills: 'HTML, CSS, JavaScript',
+    skills: 'React, TS, SCSS',
     img: project3,
     gitHubLink: 'https://github.com/EgorKostiuk/YourMeal',
   }
