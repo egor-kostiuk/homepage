@@ -8,12 +8,12 @@
 .project__image-container {
   max-height: 278px;
   padding: 19px 20px;
-  background-color: #c2ab98;
+  background-color: #c4a388;
   border-radius: 10px;
 }
 
 .project__image-container-1 { /* !todo optimaze containers */
-  background-color: #54733e;
+  background-color: #e9e2dd;
 }
 
 .project__image-container-2 {
@@ -21,7 +21,7 @@
 }
 
 .project__image {
-  max-height: 240px;
+  height: 220px;
   border-radius: 5px;
 }
 

@@ -11,17 +11,17 @@
 
 .project__img-container {
   padding: 10px 15px;
-  background-color: #c2ab98;
+  background-color: #c4a388;
   border-radius: 15px;
   margin-bottom: 40px;
   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.25);
 }
 
-.project__img-container2 {
-  background-color: #54733e;
+.project__img-container-1 {
+  background-color: #e9e2dd;
 }
 
-.project__img-container3 {
+.project__img-container-2 {
   background-color: #f8bb5f;
 }
 
