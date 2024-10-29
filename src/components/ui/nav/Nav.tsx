@@ -1,7 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-
-// import { DarkModeButton } from '../Buttons/DarkModeButton';
+import { DarkModeButton } from '../dark-mode-button/DarkModeButton';
 
 import './Nav.css';
 
@@ -18,7 +17,7 @@ export const Nav: React.FC = () => {
             <strong>Developer </strong>
             <span>portfolio</span>
           </NavLink>
-          {/* <DarkModeButton/> */}
+          <DarkModeButton/>
           <ul className="nav__list">
             <li className="nav___list-item">
               <NavLink to={'/'} className={({isActive}) => isActive ? activeLink : normalLink}>
