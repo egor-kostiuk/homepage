@@ -3,6 +3,7 @@ import { router } from './routes/router'
 
 import './App.css'
 import './project-details.css' // TODO: optimize
+import './colors.css'
 
 export const App = () => {
 	return (
