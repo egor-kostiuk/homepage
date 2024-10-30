@@ -1,9 +1,9 @@
 import { RouterProvider } from 'react-router-dom'
 import { router } from './routes/router'
 
-import './App.css'
-import './project-details.css' // TODO: optimize
-import './colors.css'
+import './styles/App.css'
+import './styles/project-details.css' // TODO: optimize
+import './styles/colors.css'
 
 export const App = () => {
 	return (
