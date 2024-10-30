@@ -9,6 +9,11 @@
   --header-text: var(--white);
   --accent: var(--purple);
 
+  /* Projects */
+  --project1-bg: #c4a388;
+  --project2-bg: #e9e2dd;
+  --project3-bg: #f8bb5f;
+
   /* Light mode */
   --page-bg: var(--white);
   --text-color: var(--black);
